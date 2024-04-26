@@ -22,8 +22,8 @@
         var v = v + i.toString() + "<br/>";
         console.log(v);
       }
-
-      document.getElementById("parrafo1").innerText = v; 
+      //se cambia la linea 26 de innerText a innerHTML para que tome la etiqueta br en ves de texto
+      document.getElementById("parrafo1").innerHTML = v; 
       document.getElementById("parrafo2").innerHTML = i;
 
   </script>
