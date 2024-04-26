@@ -18,6 +18,7 @@
     <span class="resultadoSumaClase"></span>
     <span class="resultadoSumaClase"></span>
     <span class="resultadoSumaClase"></span>
+
     <p id="resultadoResta"></p>
 
     <script type="text/javascript" charset="utf-8">
@@ -34,6 +35,8 @@
  es: " + c + "</b>";
       document.getElementById("resultadoResta").innerText = "<b>La diferencia de valores\
  es: " + d + "</b>";
+
+      //toma lo que tenga "resultadoSumaclase" y con el for lo repite hasta llegar al limite, en este caso son 10 veces
 
       spans = document.getElementsByClassName("resultadoSumaClase");
       for (var i = 0; i < spans.length; i++) {
